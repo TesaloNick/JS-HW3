@@ -1,9 +1,17 @@
 document.write('Задание 1. Числа от 1 до 50 и от 35 до 8.<br>');
-for (let i=1; i<=50; i++){
+let i;
+for (i=1; i<=50; i++){
     document.write(i, ', ');
 }
 document.write('<br>');
-for (let j=35; j>=8; j--){
-    document.write(j, ', ');
+for (i=35; i>=8; i--){
+    document.write(i, ', ');
 }
 document.write('<br>');
+
+document.write('<br>Задание 2. Столбец чисел от 89 до 11.<br>');
+i = 89;
+while (i >= 11){
+    document.write(i, '<br>');
+    i--;
+}
