@@ -15,3 +15,10 @@ while (i >= 11){
     document.write(i, '<br>');
     i--;
 }
+
+document.write('<br>Задание 3. Сумма чисел от 0 до 100.<br>');
+let sum=0;
+for (i=0; i <= 100; i++) {
+    sum += i;
+}
+document.write(sum, '<br>');
