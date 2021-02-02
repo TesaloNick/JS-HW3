@@ -22,3 +22,13 @@ for (i=0; i <= 100; i++) {
     sum += i;
 }
 document.write(sum, '<br>');
+
+document.write('<br>Задание 4. Сумма чисел в каждом числе от 1 до 5.<br>');
+let n;
+for (n=1; n <= 5; n++) {
+    let sum1 = 0;
+    for (i=0; i<=n; i++){
+        sum1 += i;
+    }
+    document.write(sum1, '<br>');
+}
