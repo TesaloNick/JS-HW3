@@ -32,3 +32,18 @@ for (n=1; n <= 5; n++) {
     }
     document.write(sum1, '<br>');
 }
+
+document.write('<br>Задание 5. Выведите чётные числа от 8 до 56. Через while и for.<br>');
+i = 8;
+while (i <= 56){
+    if (i % 2 === 0) {
+        document.write(i, ', ');
+    } 
+    i++;
+}
+document.write('<br>');
+for (i = 8; i <= 56; i++){
+    if (i % 2 === 0) {
+        document.write(i, ', ');
+    } 
+}
