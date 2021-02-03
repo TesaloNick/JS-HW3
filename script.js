@@ -56,3 +56,13 @@ for (i=2; i<=10; i++){
     }
     document.write('<br>');
 }
+
+document.write('Задание 7. Деление 1000 на 2.<br>');
+n = 1000;
+for (i=1; i<=Infinity; i++){
+    n /= 2;
+    if (n < 50){
+        break;
+    }
+}
+document.write('Получилось число ', n, '. Количество итераций - ', i)
