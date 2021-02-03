@@ -47,3 +47,12 @@ for (i = 8; i <= 56; i++){
         document.write(i, ', ');
     } 
 }
+
+document.write('<br><br>Задание 6. Полная таблица умножения.<br>');
+let j;
+for (i=2; i<=10; i++){
+    for (j=2; j<=10; j++){
+        document.write(i, '*', j, '=', i*j  , '<br>');
+    }
+    document.write('<br>');
+}
