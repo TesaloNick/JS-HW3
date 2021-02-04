@@ -17,7 +17,7 @@
 // }
 
 // document.write('<br>Задание 3. Сумма чисел от 0 до 100.<br>');
-// let sum=0;
+let sum=0;
 // for (i=0; i <= 100; i++) {
 //     sum += i;
 // }
@@ -97,3 +97,29 @@ for (i=0; i<num.length; i++) {
     }
 }
 document.write('Самое большое число: ', max, '. Самое маленькое число: ', min, '<br>');
+
+document.write('<br>Задание 10. Разбить число, написать количество цифр, написать наоборот.<br>');
+num = prompt('Введите число для задания №10: ', '12345');
+if (isNaN(num)) {
+    document.write('Вы ввели не число <br>');
+} else {
+    document.write('Вы ввели число ', num, '<br>');
+    document.write('Число состоит из следующих цифр: ');
+    let backwards = '';
+    for (i=0; i < num.length; i++) {
+        sum += +num[i];
+        if (i == (num.length-1)) {
+            document.write(num[i], '.');
+            break;
+        }
+        document.write(num[i], ', ');
+    }
+    for (i=(num.length-1); i >= 0 ; i--) {
+        backwards += num[i];
+    }
+    
+    document.write('<br>Количество цифр в числе: ', num.length, '.<br>');
+    document.write('Сумма цифр в числе: ', sum, '.<br>');
+    document.write('Число наоборот: ', backwards, '.<br>');
+}
+
